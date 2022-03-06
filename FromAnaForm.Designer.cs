@@ -314,7 +314,7 @@ namespace YurtKayitSistemi
             this.dataGridView1.DataSource = this.ogrenciBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 50);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(437, 277);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 277);
             this.dataGridView1.TabIndex = 1;
             // 
             // ogridDataGridViewTextBoxColumn
@@ -395,7 +395,9 @@ namespace YurtKayitSistemi
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FromAnaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Sayfa";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FromAnaForm_FormClosed);
             this.Load += new System.EventHandler(this.FromAnaForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

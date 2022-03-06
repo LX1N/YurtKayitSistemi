@@ -108,5 +108,10 @@ namespace YurtKayitSistemi
             FrmPersonel fr = new FrmPersonel();
             fr.Show();
         }
+
+        private void FromAnaForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
