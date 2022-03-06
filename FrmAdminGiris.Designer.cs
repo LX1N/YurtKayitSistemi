@@ -49,13 +49,15 @@ namespace YurtKayitSistemi
             // 
             // btnGirisYap
             // 
+            this.btnGirisYap.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnGirisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGirisYap.Location = new System.Drawing.Point(250, 158);
+            this.btnGirisYap.Location = new System.Drawing.Point(250, 147);
             this.btnGirisYap.Name = "btnGirisYap";
-            this.btnGirisYap.Size = new System.Drawing.Size(147, 39);
+            this.btnGirisYap.Size = new System.Drawing.Size(168, 39);
             this.btnGirisYap.TabIndex = 1;
             this.btnGirisYap.Text = "Giriş Yap";
-            this.btnGirisYap.UseVisualStyleBackColor = true;
+            this.btnGirisYap.UseVisualStyleBackColor = false;
             this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // txtKullaniciAdi
@@ -108,8 +110,11 @@ namespace YurtKayitSistemi
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.lblKullaniciAdi);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmAdminGiris";
-            this.Text = "FrmAdminGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Giriş Ekranı";
             this.ResumeLayout(false);
             this.PerformLayout();
 

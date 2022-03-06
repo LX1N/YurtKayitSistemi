@@ -12,7 +12,7 @@ namespace YurtKayitSistemi
     {
         public SqlConnection baglanti()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-OBFEJ5I\SQLEXPRESS;Initial Catalog=YurtOtomasyonu;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-C45MJKA\SQLEXPRESS;Initial Catalog=YurtOtomasyonu;Integrated Security=True");
             con.Open();
             return con;
         }

@@ -193,6 +193,7 @@ namespace YurtKayitSistemi
             // 
             // cbxOdaNo
             // 
+            this.cbxOdaNo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxOdaNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cbxOdaNo.FormattingEnabled = true;
             this.cbxOdaNo.Location = new System.Drawing.Point(142, 293);
@@ -315,6 +316,7 @@ namespace YurtKayitSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(386, 630);
             this.Controls.Add(this.button1);
@@ -343,9 +345,13 @@ namespace YurtKayitSistemi
             this.Controls.Add(this.gbxOgrenci);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmOgrKayit";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Öğrenci Kayıt";
             this.Load += new System.EventHandler(this.FrmOgrKayit_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
